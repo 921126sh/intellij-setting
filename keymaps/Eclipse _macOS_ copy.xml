@@ -1,4 +1,9 @@
 <keymap version="1" name="Eclipse (macOS) copy" parent="Eclipse (Mac OS X)">
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="shift meta k" />
@@ -6,10 +11,16 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="shift meta c" />
   </action>
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
   <action id="CopyPaths" />
   <action id="DatabaseView.CopyDdlAction">
     <keyboard-shortcut first-keystroke="shift meta alt g" />
   </action>
+  <action id="Debugger.EditArrayFilter" />
+  <action id="Debugger.EditCustomField" />
   <action id="EditorChooseLookupItemReplace" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
@@ -20,12 +31,22 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="MethodHierarchy" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta h" />
@@ -36,10 +57,15 @@
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="StructuralSearchPlugin.StructuralReplaceAction">
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
   <action id="Vcs.Push" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
