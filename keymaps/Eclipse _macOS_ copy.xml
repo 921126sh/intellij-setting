@@ -19,6 +19,9 @@
   <action id="DatabaseView.CopyDdlAction">
     <keyboard-shortcut first-keystroke="shift meta alt g" />
   </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="EditorChooseLookupItemReplace" />
@@ -58,6 +61,12 @@
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
+  <action id="RerunTests">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
@@ -82,4 +91,6 @@
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="shift ctrl meta r" />
   </action>
+  <action id="hg4idea.QFold" />
+  <action id="presentationAssistant.ShowActionDescriptions" />
 </keymap>
